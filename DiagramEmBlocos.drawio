@@ -1,13 +1,13 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
   <diagram name="Página-1" id="03X4hBIXiGKpYStbue-_">
-    <mxGraphModel dx="1188" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1019" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="oq7cO_VvlCCRNrVuNheC-7" edge="1" parent="1" source="oq7cO_VvlCCRNrVuNheC-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="oq7cO_VvlCCRNrVuNheC-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oq7cO_VvlCCRNrVuNheC-19" connectable="0" parent="oq7cO_VvlCCRNrVuNheC-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="GPIO32 (ADC1_CH3) - Eixo Y" vertex="1">
+        <mxCell id="oq7cO_VvlCCRNrVuNheC-19" connectable="0" parent="oq7cO_VvlCCRNrVuNheC-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="GPIO5 (ADC1_CH4&lt;div&gt;) - Eixo Y&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.0154" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -15,7 +15,7 @@
         <mxCell id="oq7cO_VvlCCRNrVuNheC-15" edge="1" parent="1" source="oq7cO_VvlCCRNrVuNheC-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="oq7cO_VvlCCRNrVuNheC-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oq7cO_VvlCCRNrVuNheC-18" connectable="0" parent="oq7cO_VvlCCRNrVuNheC-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="GPIO34 (ADC1_CH4) - eixo X" vertex="1">
+        <mxCell id="oq7cO_VvlCCRNrVuNheC-18" connectable="0" parent="oq7cO_VvlCCRNrVuNheC-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="GPIO4 (ADC1_CH3) - eixo X" vertex="1">
           <mxGeometry relative="1" x="-0.2077" y="-2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -23,7 +23,7 @@
         <mxCell id="oq7cO_VvlCCRNrVuNheC-16" edge="1" parent="1" source="oq7cO_VvlCCRNrVuNheC-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="oq7cO_VvlCCRNrVuNheC-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oq7cO_VvlCCRNrVuNheC-20" connectable="0" parent="oq7cO_VvlCCRNrVuNheC-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="GPIO6 (Entrada digital - Pull-up) Botão SW" vertex="1">
+        <mxCell id="oq7cO_VvlCCRNrVuNheC-20" connectable="0" parent="oq7cO_VvlCCRNrVuNheC-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="GPIO6 (Entrada digital - Pull-up - ADC1_CH5&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;) Botão SW&lt;/span&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.0538" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -48,7 +48,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="oq7cO_VvlCCRNrVuNheC-24" connectable="0" parent="oq7cO_VvlCCRNrVuNheC-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="SCL (GPIO 20)" vertex="1">
+        <mxCell id="oq7cO_VvlCCRNrVuNheC-24" connectable="0" parent="oq7cO_VvlCCRNrVuNheC-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="SCL (GPIO 9)" vertex="1">
           <mxGeometry relative="1" x="0.0227" y="-1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -88,7 +88,7 @@
             <mxPoint x="-110" y="-19" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oq7cO_VvlCCRNrVuNheC-23" connectable="0" parent="oq7cO_VvlCCRNrVuNheC-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="SDA (GPIO 21)" vertex="1">
+        <mxCell id="oq7cO_VvlCCRNrVuNheC-23" connectable="0" parent="oq7cO_VvlCCRNrVuNheC-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="SDA (GPIO 8)" vertex="1">
           <mxGeometry relative="1" x="0.115" y="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -104,7 +104,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="oq7cO_VvlCCRNrVuNheC-28" connectable="0" parent="oq7cO_VvlCCRNrVuNheC-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="GPIO19&lt;br&gt;Saída LEDC PWM (50Hz)" vertex="1">
+        <mxCell id="oq7cO_VvlCCRNrVuNheC-28" connectable="0" parent="oq7cO_VvlCCRNrVuNheC-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="GPIO17&lt;br&gt;Saída LEDC PWM (50Hz)" vertex="1">
           <mxGeometry relative="1" x="0.2027" y="2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
