@@ -1,0 +1,126 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.6 Chrome/144.0.7559.236 Electron/40.8.4 Safari/537.36" version="29.6.6">
+  <diagram name="Página-1" id="03X4hBIXiGKpYStbue-_">
+    <mxGraphModel dx="1188" dy="716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="oq7cO_VvlCCRNrVuNheC-7" edge="1" parent="1" source="oq7cO_VvlCCRNrVuNheC-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="oq7cO_VvlCCRNrVuNheC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oq7cO_VvlCCRNrVuNheC-19" connectable="0" parent="oq7cO_VvlCCRNrVuNheC-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="GPIO32 (ADC1_CH3) - Eixo Y" vertex="1">
+          <mxGeometry relative="1" x="0.0154" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oq7cO_VvlCCRNrVuNheC-15" edge="1" parent="1" source="oq7cO_VvlCCRNrVuNheC-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="oq7cO_VvlCCRNrVuNheC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oq7cO_VvlCCRNrVuNheC-18" connectable="0" parent="oq7cO_VvlCCRNrVuNheC-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="GPIO34 (ADC1_CH4) - eixo X" vertex="1">
+          <mxGeometry relative="1" x="-0.2077" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oq7cO_VvlCCRNrVuNheC-16" edge="1" parent="1" source="oq7cO_VvlCCRNrVuNheC-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="oq7cO_VvlCCRNrVuNheC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oq7cO_VvlCCRNrVuNheC-20" connectable="0" parent="oq7cO_VvlCCRNrVuNheC-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="GPIO6 (Entrada digital - Pull-up) Botão SW" vertex="1">
+          <mxGeometry relative="1" x="-0.0538" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oq7cO_VvlCCRNrVuNheC-1" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Joystick Analógico" vertex="1">
+          <mxGeometry height="80" width="80" x="40" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="oq7cO_VvlCCRNrVuNheC-8" edge="1" parent="1" source="oq7cO_VvlCCRNrVuNheC-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="oq7cO_VvlCCRNrVuNheC-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oq7cO_VvlCCRNrVuNheC-26" connectable="0" parent="oq7cO_VvlCCRNrVuNheC-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="GPIO18&lt;br&gt;Saída LEDC PWM (50Hz)" vertex="1">
+          <mxGeometry relative="1" x="0.1583" as="geometry">
+            <mxPoint x="-12" y="85" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oq7cO_VvlCCRNrVuNheC-9" edge="1" parent="1" source="oq7cO_VvlCCRNrVuNheC-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;startArrow=classic;startFill=1;" target="oq7cO_VvlCCRNrVuNheC-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="480" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oq7cO_VvlCCRNrVuNheC-24" connectable="0" parent="oq7cO_VvlCCRNrVuNheC-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="SCL (GPIO 20)" vertex="1">
+          <mxGeometry relative="1" x="0.0227" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oq7cO_VvlCCRNrVuNheC-10" edge="1" parent="1" source="oq7cO_VvlCCRNrVuNheC-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="oq7cO_VvlCCRNrVuNheC-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oq7cO_VvlCCRNrVuNheC-29" connectable="0" parent="oq7cO_VvlCCRNrVuNheC-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="GPIO 2&lt;br&gt;&lt;div&gt;Saída Digital (GPIO HIGH/LOW)&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.2625" y="-5" as="geometry">
+            <mxPoint y="55" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oq7cO_VvlCCRNrVuNheC-2" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&#xa;ESP32 (FreeRTOS&#xa;&#xa;" vertex="1">
+          <mxGeometry height="80" width="80" x="460" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="oq7cO_VvlCCRNrVuNheC-3" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="Sensor&lt;br&gt;MPU6050 (Físico)" vertex="1">
+          <mxGeometry height="80" width="80" x="70" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="oq7cO_VvlCCRNrVuNheC-4" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&#xa;LED Status (GPIO 2&#xa;&#xa;" vertex="1">
+          <mxGeometry height="80" width="80" x="640" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="oq7cO_VvlCCRNrVuNheC-6" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;br&gt; Servo X" vertex="1">
+          <mxGeometry height="80" width="80" x="380" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="oq7cO_VvlCCRNrVuNheC-21" edge="1" parent="1" source="oq7cO_VvlCCRNrVuNheC-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;startArrow=classic;startFill=1;exitX=0.119;exitY=1.029;exitDx=0;exitDy=0;exitPerimeter=0;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="470" y="390" />
+              <mxPoint x="470" y="450" />
+            </Array>
+            <mxPoint x="460" y="360" as="sourcePoint" />
+            <mxPoint x="150" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oq7cO_VvlCCRNrVuNheC-22" connectable="0" parent="oq7cO_VvlCCRNrVuNheC-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Barramento I2C - 400kHz" vertex="1">
+          <mxGeometry relative="1" x="0.1189" y="-1" as="geometry">
+            <mxPoint x="-110" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oq7cO_VvlCCRNrVuNheC-23" connectable="0" parent="oq7cO_VvlCCRNrVuNheC-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="SDA (GPIO 21)" vertex="1">
+          <mxGeometry relative="1" x="0.115" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oq7cO_VvlCCRNrVuNheC-25" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;br&gt; Servo Y" vertex="1">
+          <mxGeometry height="80" width="80" x="510" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="oq7cO_VvlCCRNrVuNheC-27" edge="1" parent="1" source="oq7cO_VvlCCRNrVuNheC-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.413;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" target="oq7cO_VvlCCRNrVuNheC-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="530" y="598" />
+              <mxPoint x="543" y="598" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oq7cO_VvlCCRNrVuNheC-28" connectable="0" parent="oq7cO_VvlCCRNrVuNheC-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="GPIO19&lt;br&gt;Saída LEDC PWM (50Hz)" vertex="1">
+          <mxGeometry relative="1" x="0.2027" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oq7cO_VvlCCRNrVuNheC-31" edge="1" parent="1" source="oq7cO_VvlCCRNrVuNheC-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" target="oq7cO_VvlCCRNrVuNheC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="oq7cO_VvlCCRNrVuNheC-32" connectable="0" parent="oq7cO_VvlCCRNrVuNheC-31" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Interface UART / Serial-USB (JSON/CSV)" vertex="1">
+          <mxGeometry relative="1" x="0.32" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oq7cO_VvlCCRNrVuNheC-30" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;span data-path-to-node=&quot;16,1&quot;&gt;Computador&amp;nbsp;&lt;/span&gt;&lt;span data-path-to-node=&quot;16,2&quot;&gt;&lt;span class=&quot;citation-7 citation-end-7&quot;&gt;&lt;sup class=&quot;superscript&quot; data-turn-source-index=&quot;7&quot;&gt;&lt;/sup&gt;&lt;sup class=&quot;superscript&quot; data-turn-source-index=&quot;7&quot;&gt;&lt;/sup&gt;&lt;sup class=&quot;superscript&quot; data-turn-source-index=&quot;7&quot;&gt;&lt;/sup&gt;&lt;sup class=&quot;superscript&quot; data-turn-source-index=&quot;7&quot;&gt;&lt;/sup&gt;&lt;/span&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="80" x="640" y="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
