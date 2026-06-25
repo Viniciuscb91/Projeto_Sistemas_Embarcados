@@ -45,6 +45,7 @@ Para o correto funcionamento físico e imunidade a ruídos ou conflitos com pino
 1. **Firmware (ESP32-S3):** Desenvolvido em C/C++, gerencia a leitura dos canais do ADC, o mapeamento linear dos valores para pulsos PWM (`0°` a `180°` nos motores) e o tratamento de registros via I2C do MPU6050.
 2. **Telemetria:** Envio periódico estruturado dos ângulos de orientação empacotados via comunicação Serial/UART.
 3. **Dashboard (Grafana):** Captura as strings de telemetria através de um agente de banco de dados e renderiza os eixos tridimensionais, simulando em tempo real o espelho virtual (Gêmeo Digital) da posição mecânica.
+<img width="1600" height="785" alt="image" src="https://github.com/user-attachments/assets/c1f50ea6-2245-4c9d-9695-35591f6cefa7" />
 
 ---
 
@@ -53,9 +54,10 @@ Para o correto funcionamento físico e imunidade a ruídos ou conflitos com pino
 Projeto desenvolvido como avaliação final para a disciplina de **Sistemas Embarcados**, sob orientação do docente **Alexandre Sales Vasconcelos**:
 
 - 🎓 Andreza Santos
-- 🎓 Lavoisier Ramos
+- 🎓 Lavoisier Chaves Ramos
 - 🎓 Nivaldo Neto
 - 🎓 Vinícius Barbosa
+
 
 ---
 *IFPB - Instituto Federal da Paraíba | Campus Campina Grande — Semestre 2026.1*
