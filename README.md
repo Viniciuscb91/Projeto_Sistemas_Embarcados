@@ -13,9 +13,11 @@ Este repositório contém o projeto de uma **Mesa Labirinto Interativa** baseada
 
 ## 📺 Demonstração em Vídeo
 
-Confira o projeto físico funcionando na bancada e respondendo aos comandos no link abaixo:
+Confira o projeto físico funcionando na bancada e respondendo aos comandos nos links abaixo:
 
-👉 **[Assista ao Vídeo Demonstrativo no YouTube Shorts](https://youtube.com/shorts/U9YGxw62bzo?feature=share)**
+👉 **[Assista ao Vídeo Demonstrativo das fases 1 e 2  no YouTube Shorts](https://youtube.com/shorts/U9YGxw62bzo?feature=share)**
+👉 **[Assista ao Vídeo Demonstrativo da fase 3 no Drive](https://drive.google.com/file/d/1lE0nxOqSokXPpqzJ4v5t-ZpuxbB56kVc/view?usp=sharing)**
+
 
 ---
 
