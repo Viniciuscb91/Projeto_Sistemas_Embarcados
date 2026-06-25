@@ -7,6 +7,10 @@ Este repositório contém o projeto de uma **Mesa Labirinto Interativa** baseada
 ![DiagramaDeBlocos](DiagramaDeBlocos.png)
 ---
 
+# 📐 Diagrama Esquemático
+<img width="907" height="605" alt="image" src="https://github.com/user-attachments/assets/c7041f40-88d8-4840-b8b2-c93b86f1fdcd" />
+
+
 ## 📺 Demonstração em Vídeo
 
 Confira o projeto físico funcionando na bancada e respondendo aos comandos no link abaixo:
