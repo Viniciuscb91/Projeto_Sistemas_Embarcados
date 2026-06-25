@@ -2,6 +2,9 @@
 
 Este repositório contém o projeto de uma **Mesa Labirinto Interativa** baseada no microcontrolador **ESP32-S3-WROOM-1U**. O sistema permite ao usuário controlar a inclinação física de um labirinto através de um joystick analógico para guiar uma esfera metálica até a saída, enquanto um sensor inercial **MPU6050 (Módulo JY62)** monitora a orientação real da mesa (ângulos de *Pitch* e *Roll*) enviando os dados em tempo real para um computador para visualização e criação de um Gêmeo Digital no **Grafana**.
 
+# 📐 Diagrama de Blocos
+
+![DiagramaDeBlocos](DiagramaDeBlocos.png)
 ---
 
 ## 📺 Demonstração em Vídeo
